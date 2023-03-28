@@ -1,0 +1,17 @@
+maj = 0;
+nbLetters = 26;
+
+if(maj == 1)
+{
+    start = 65
+} else {
+    start = 97
+};
+
+stop = start + nbLetters;
+
+while (start < stop)
+{
+    printc start;
+    start = start + 1
+}

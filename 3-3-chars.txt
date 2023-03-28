@@ -1,0 +1,9 @@
+P = 'P';
+i = 'i';
+e = 'e';
+t = 't';
+
+print P;
+print i;
+print e;
+printc t

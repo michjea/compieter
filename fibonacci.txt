@@ -1,0 +1,16 @@
+b = 1;
+a = 0;
+
+n = 10;
+
+i = 0;
+
+while (i <= n)
+{
+    temp = a;
+    a = b;
+    b = temp + b;
+    print a;
+
+    i = i + 1
+}

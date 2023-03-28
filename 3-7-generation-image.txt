@@ -1,0 +1,11 @@
+a = 1;
+
+while(a <= 10)
+{
+    mod = a%2;
+    if(mod == 0)
+    {
+        print a
+    };
+    a = a + 1
+}

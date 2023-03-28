@@ -1,0 +1,28 @@
+nbPrimesWanted = 3;
+nbPrimes = 0;
+
+currentNb = 2;
+
+while(nbPrimes < nbPrimesWanted)
+{
+    start = 2;
+    isPrime = 1;
+
+    while(start < currentNb)
+    {
+        result = currentNb % start;
+
+        if(result == 0){
+            isPrime = 0
+        };
+
+        start = start + 1
+    };
+
+    if(isPrime == 1){
+        print currentNb;
+        nbPrimes = nbPrimes + 1
+    };
+    
+    currentNb = currentNb + 1
+}
